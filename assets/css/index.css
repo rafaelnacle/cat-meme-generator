@@ -172,7 +172,7 @@ input[type="radio"] {
     border: 2px solid #FF785A;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     h1 {
         font-size: 24px;
     }
@@ -183,5 +183,13 @@ input[type="radio"] {
 
     .header-inner {
         width: 100%;
+    }
+
+    .meme-modal {
+        width: 300px;
+    }
+
+    .cat-img {
+        max-width: 280px;
     }
 }
